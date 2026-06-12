@@ -1,0 +1,57 @@
+{
+  "name": "bookkeeper",
+  "version": "0.1.0",
+  "description": "A beautiful app to organize books and quotes with personal reflections and decorations",
+  "type": "module",
+  "private": true,
+  "author": "Bong Hoa",
+  "license": "MIT",
+  "homepage": "https://bookkeeper.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bonghoa23/BookKeeper.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext js,jsx --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\"",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist node_modules"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "firebase": "^10.7.1",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.10",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
